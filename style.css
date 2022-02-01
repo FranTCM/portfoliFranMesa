@@ -1,26 +1,92 @@
 body {
   background-color: wheat;
   margin: 0;
-  height: 700px;
+  height: 100%;
   background-image: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_960_720.jpg");
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
-p { color: blue}
-
-.Titol {
-    background-color:orangered;
-    width: 100%;
-    height:100px;
-    text-align: left ;
-    color: black ;
+.titol {
+  background-color: orangered;
+  
+  width: 100%;
+  height: 90px;
+  padding-top: 1px;
+  color: black;
+  padding-bottom: 25px;
+  padding-left: 10px;
   }
-  .Icones {
-    color: white;
-    text-align: center ;
-      }
-      form {
-        color: white;
-          }      
+.oval1 {
+  width: 250px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #5cb85c;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 70px;
+  display: flex;
+  }
+.oval2 {
+  width: 250px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #5cb85c;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  display: flex;
+  }
+  .oval3 {
+    width: 250px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    }
+.icones {
+  color: white;
+  text-align: center;
+}
+form {
+  color: blanchedalmond;
+  padding-top: 400px;
+  padding-bottom: 50px;
+  margin-left: 1%;
+  }
 
+.aboutMe  {
+color: blanchedalmond;
+padding-top: 400px;
+margin-left: 1%;
+}
+
+.curri  {
+  color: blanchedalmond;
+  padding-top: 400px;
+  margin-left: 1%;
+  }
+
+@media only screen and (max-width: 600px) {
+  .titol {
+    background-color: yellowgreen;
+    font-size: small;
+  }
+  .icones {
+    font-size:smaller;
+}
