@@ -8,21 +8,20 @@ body {
 }
 
 .titol {
-  background-color: orangered;
-  
+  background-color: burlywood;
   width: 100%;
   height: 90px;
   padding-top: 1px;
   color: black;
   padding-bottom: 25px;
   padding-left: 10px;
-  }
+}
 .oval1 {
   width: 250px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: #5cb85c;
+  background: burlywood;
   margin: auto;
   align-content: center;
   justify-content: center;
@@ -30,13 +29,13 @@ body {
   padding-bottom: 25px;
   margin-top: 70px;
   display: flex;
-  }
+}
 .oval2 {
   width: 250px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: #5cb85c;
+  background: burlywood;
   margin: auto;
   align-content: center;
   justify-content: center;
@@ -44,21 +43,21 @@ body {
   padding-bottom: 30px;
   margin-top: 30px;
   display: flex;
-  }
-  .oval3 {
-    width: 250px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #5cb85c;
-    margin: auto;
-    align-content: center;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 30px;
-    display: flex;
-    }
+}
+.oval3 {
+  width: 250px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: burlywood;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  display: flex;
+}
 .icones {
   color: white;
   text-align: center;
@@ -68,25 +67,63 @@ form {
   padding-top: 400px;
   padding-bottom: 50px;
   margin-left: 1%;
-  }
-
-.aboutMe  {
-color: blanchedalmond;
-padding-top: 400px;
-margin-left: 1%;
 }
 
-.curri  {
+.aboutMe {
   color: blanchedalmond;
   padding-top: 400px;
   margin-left: 1%;
-  }
-
+  height: 150px;
+}
+.curri {
+  color: blanchedalmond;
+  padding-top: 400px;
+  margin-left: 1%;
+}
+.foto2 {
+  justify-content: center;
+  margin: auto;
+  align-content: center;
+}
 @media only screen and (max-width: 600px) {
   .titol {
     background-color: yellowgreen;
     font-size: small;
   }
   .icones {
-    font-size:smaller;
+    font-size: smaller;
+     }
+     .oval1 {
+      background: yellowgreen;
+     }
+     .oval2 {
+      background: yellowgreen;
+     }
+     .oval3 {
+      background: yellowgreen;
+    }
+}
+.pilota {
+  background-color:blanchedalmond;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 100px;
+  animation-name: bouncing-ball;
+  animation-duration: 900ms;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-play-state: running;
+}
+@keyframes bouncing-ball {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50px);
+  }
 }
